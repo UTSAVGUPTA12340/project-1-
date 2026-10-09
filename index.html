@@ -2,61 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple News Website</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body>
+<>
+    <h1>Hotel Room Booking Form</h1>
+    <form action="#" method="Post ">
+        <label for = "Name">Full Name:</label>
+        <input type = "text" id="Name" placeholder="Enter your name">
+        </form>
 
-    <!-- Header -->
-     <h1 style="text-align:center;">Global Daily News</h1>
-     <p style="text-align:center;=">Your Trusted Source for Latest Updates</p>
-     <hr>
+        <br><br>
+        <label for = "Phone">Phone number:</label>
+        <input type = "phone" id = "phone" placeholder="Enter your phone">
+
+        <br><br>
+        <label for = "Email"> Email:</label>
+        <input type = "Email" id = "Email" placeholder = "Enter your Email" required>
+
+        <br><br>
+        <label for="roomtype">Room Type:</label>
+        <select id="roomtype">
+            <option value = "">Choose Room Type </option>
+            <option value = "Single">Single</option>
+            <option value = "double">double</option>
+            <option value = "Suit">Suit</option>
 
 
-     <!-- Navigation -->
-      < p style="text-align:center;">
-        <a href="#world">World</a> 
-        <a href="#sport">Sports</a> 
-        <a href="#entertainment">Entertainment</a> 
-        <a href="#podcast">Podcast</a> 
-        <a href="#contact">Contact</a>
-      </p>
-      <hr>
+        </select><br><br>
+        <label for="Guests">Number of Guests:</label>
+        <input type="number" id="Guests" min="1" max="10"><br>
 
-      <!-- World News Section-->
-        <h2 id="world">World News</h2>
-        <p>Today's top headline: Global Leaders Meet to Discuss Climate Change initiatives.</p>
-        <img src="https://share.google/lHBr1sTVCD2bIg1rj" alt="World News Image" width="600" height="300">
-        <p><a href="https://www.bbc.com/news" target="_blank">Read More on BBC</a></p>
+        <br>
+        <label for="Special request">Special Request:</label>
+        <textarea id="Special request" rows="4" col="50" placeholder="Enter any special requests here...">
+        
 
-        <!-- Sports News Section -->
-        <h2 id="sport">Sports Updates</h2>
-        <p>Highlights of yesterday's football match with thrilling last-minute goals.</p>
-        <!-- Entertainment Section -->
-        <h2 id="entertainment">Entertainment Buzz</h2>
-        <p>New movie trailer released today. Fans are excited!</p>
-        <!-- Local Video -->
-        <video width="320" height="240" controls>
-            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
 
-        <hr>
 
-        <!-- Podcast Section-->
-        <h2 id="podcast"> News Podcast</h2>
-        <p>Listen to today's top headlines:</p>
-        <!-- Audio -->
-         <audio controls>
-            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="audio/mpeg">
-            Your browser does not support the audio element.
-         </audio>
 
-        <hr>
-        <!-- Footer -->
-         <h3 id ="contact">Contact Us</h3>
-         <p>Email: info@globalnews.com</p>
-         <p>&copy; 2026 Global Daily News</p>
+        </textarea>
+        <input type="submit" value="Book Value">
+        <input type= "reset" value="reset now">
+    </form>
 
+     
+    
+    
 </body>
 </html>
